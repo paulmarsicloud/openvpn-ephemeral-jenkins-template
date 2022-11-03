@@ -30,8 +30,10 @@ In order to use this template, simply clone/fork this repo, and update the follo
 5. Wait for the Create VPN stage to complete
 6. When completed, you can download the `openvpn.ovpn` artifact from the stage view:
    ![artifact via stage view](./images/stage_view.png)
+
    You can also go to Last Successful Artifacts and download from there too:
    ![last successful artifact](./images/last_successful_artifact.png)
+
 7. Open `openvpn.ovpn` on your local machine with your OpenVPN Connect application
 8. When ready to destroy, simply disconnect from the OpenVPN Connect profile, go back to the Jenkins Pipeline GUI. Click on "Paused for Input" or hover over the Destroy VPN stage in the GUI:
    ![destroy vpn](./images/destroy_vpn.png)
